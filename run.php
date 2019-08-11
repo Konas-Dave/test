@@ -1,4 +1,5 @@
 <?php
+require_once 'vendor/simple_html_dom.php';
 
 spl_autoload_register( function($class_name ) {
     $file_name = $class_name . '.php';
@@ -7,7 +8,6 @@ spl_autoload_register( function($class_name ) {
     }
 } );
 
-// code here
 use Tools\CzcGrabber;
 use Tools\JsonGenerator;
 use Tools\FileLogger;

@@ -45,8 +45,9 @@ class Dispatcher
                 if(empty($code)){
                     continue;
                 }
+                $this->grabber->findProduct($code);
                 $result[$code] = [
-                    'price' => $this->grabber->getPrice($code)
+                    'price' => $this->grabber->getPrice()
                 ];
             }
             $this->output->setContent($result);

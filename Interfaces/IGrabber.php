@@ -4,11 +4,14 @@ namespace Interfaces;
 
 interface IGrabber
 {
+    /**
+     * @param $productId
+     */
+    public function findProduct($productId): void;
 
-	/**
-	 * @param string $productId
-	 * @return float
-	 */
-	public function getPrice($productId);
+    /**
+     * @return float|null
+     */
+	public function getPrice(): ?float;
 
 }

@@ -1,0 +1,8 @@
+2019-08-11 21:46:42: Call to undefined function Tools\tidy_repair_string()
+2019-08-11 21:47:19: Call to undefined function tidy_repair_string()
+2019-08-11 21:47:26: Call to undefined function Tools\tidy_repair_string()
+2019-08-11 21:52:52: Class 'tidy' not found
+2019-08-11 22:07:31: Call to undefined function Tools\file_get_html()
+2019-08-11 22:09:03: Class 'simple_html_dom' not found
+2019-08-11 22:54:44: Call to a member function find() on array
+2019-08-11 23:21:37: Cannot use object of type simple_html_dom_node as array
