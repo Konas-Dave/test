@@ -1,0 +1,8 @@
+{
+    "require": {
+        "tracy/tracy": "^2.6",
+        "nette/robot-loader": "^3.2",
+        "nette/bootstrap": "^3.0",
+        "voku/simple_html_dom": "^4.6"
+    }
+}

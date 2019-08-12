@@ -6,3 +6,9 @@
 2019-08-11 22:09:03: Class 'simple_html_dom' not found
 2019-08-11 22:54:44: Call to a member function find() on array
 2019-08-11 23:21:37: Cannot use object of type simple_html_dom_node as array
+2019-08-12 20:31:32: Call to undefined function App\Tools\file_get_html()
+2019-08-12 21:14:16: Call to a member function find() on bool
+2019-08-12 21:15:22: Call to a member function find() on bool
+2019-08-12 21:23:35: Call to a member function find() on bool
+2019-08-12 21:23:57: Call to a member function find() on bool
+2019-08-12 21:38:26: Return value of App\Tools\CzcGrabber::getRating() must be of the type int or null, object returned

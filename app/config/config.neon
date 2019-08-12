@@ -1,0 +1,10 @@
+parameters:
+    url:
+        czc: https://www.czc.cz/PRODUCT_CODE/hledat
+
+services:
+    Dispatcher: Dispatcher
+
+    - App\Tools\CzcGrabber(%url.czc%)
+    - App\Tools\JsonGenerator
+    - App\Tools\FileLogger
