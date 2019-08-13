@@ -52,7 +52,7 @@ class Dispatcher
                 ];
             }
             $this->output->setContent($result);
-            $this->output->getJson();
+            echo $this->output->getJson();
         } catch (\Throwable $e) {
 	        $this->logger->log($e->getMessage(), ILogger::ERROR);
 	        echo $e->getMessage();

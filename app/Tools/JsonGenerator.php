@@ -19,7 +19,7 @@ class JsonGenerator implements IOutput
     public function getJson()
     {
         header('Content-Type: application/json');
-        echo json_encode($this->content ?? null);
+        return json_encode($this->content ?? null);
     }
 
     public function setContent($content): void

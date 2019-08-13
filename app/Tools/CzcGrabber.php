@@ -26,6 +26,7 @@ class CzcGrabber implements IGrabber
     public function __construct(string $url)
     {
         $this->url = $url;
+        $this->product = new CzcProduct();
     }
 
     /**
@@ -67,7 +68,7 @@ class CzcGrabber implements IGrabber
      */
     public function getName(string $productId): ?string
     {
-        if(!$this->product !== $productId){
+        if(!$this->product->code !== $productId){
             $this->findProduct($productId);
         }
         return $this->product->name;
@@ -79,7 +80,7 @@ class CzcGrabber implements IGrabber
      */
     public function getRating(string $productId): ?int
     {
-        if(!$this->product !== $productId){
+        if(!$this->product->code !== $productId){
             $this->findProduct($productId);
         }
         if($this->product){
